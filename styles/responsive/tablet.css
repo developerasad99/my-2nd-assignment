@@ -1,0 +1,25 @@
+/* medium size screen device responsive unit  */
+@media (min-width: 577px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+        padding: 0px 30px;
+    }
+     .aboutSection br{
+        display: none;
+    }
+     .aboutCardContainer{
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+    }
+     .gridContainer{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+       "premium responce"
+        "community Interviews"
+        "Resources Resources";
+        ;
+    }
+    .feturedContainer{
+        flex-wrap: wrap;
+    }
+}
