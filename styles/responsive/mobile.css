@@ -1,0 +1,76 @@
+/* mobile responsive unit  */
+@media screen and (max-width: 576px){
+    .container
+    {
+        width: 100%;
+        padding: 0px 30px;
+    }
+    nav ul, .btnbox  {
+    display: none;
+    }
+    .mobilemenu{
+        display: block;
+    }
+    .commonHeading{
+        font-size: 2rem;
+    }
+    .heroTitle{
+        font-size: 2.5rem;
+    }
+    .heroContent{
+        padding: 0px 80px;
+        text-align: center;
+    }
+    .aboutSection br{
+        display: none;
+    }
+    .aboutSection .sectionOverview .p2{
+        padding: 0px 30px;
+    }
+    .aboutCardContainer{
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+    }
+    .gridContainer{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-areas: 
+       "premium"
+        "responce"
+        "community"
+        "Interviews"
+        "Resources";
+        ;
+    }
+    .feturedContainer{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .testimonialContainer{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .socialIcon ul{
+        justify-content: center;
+    }
+    .testimonialContainer {
+        padding: 50px 25px;
+    }
+    .footterContent{
+        gap: 0px;
+    }
+    .footterContent ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        margin-top: 20px;
+    }
+    .footerContainer{
+        padding: 25px 0px;
+        background-size: 700px;
+    }
+    .footterContent{
+        padding: 20px 82px 0px;
+    }
+}

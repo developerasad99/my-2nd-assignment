@@ -273,6 +273,7 @@ nav ul li a{
     font-size: 38px;
     font-weight: bold;
     color: white;
+    margin-bottom: 30px;
 }
 .socialIcon{
     margin-top: 20px;
@@ -315,11 +316,11 @@ footer{
 .footterContent .logo h1{
     font-size: 65px;
 }
-.footterContent p{
+.footerContainer p{
     font-size: 18px;
     color: rgb(163, 152, 152);
     margin-top: 50px;
-   
+   text-align: center;
 }
 .footterContent ul{
     display: flex;
@@ -335,3 +336,4 @@ footer{
     align-items: center;
     gap: 10px;
 }
+/* end footer section  */
