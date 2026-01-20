@@ -27,6 +27,17 @@ body{
     align-items: center;
     gap: 7px;
 }
+.primarybtn:hover{
+    background: linear-gradient(to  right, #9100F8, #FB09B4, #F7E93F);
+}
+
+
+#secondaryBtn:hover{
+    border: 1px solid #FB09B4;
+    color: #FB09B4;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 .commonHeading{
     font-size: 3rem;
     font-weight: bold;
@@ -71,6 +82,9 @@ nav ul li a{
     color: white;
     font-size: 1rem;
 }
+nav ul li:hover {
+    border-bottom: 2px solid #ddd;
+}
 .logo h1 span{
     background: #F7E93F;
     background: linear-gradient(to bottom left, #9100F8, #FB09B4, #F7E93F);
@@ -107,6 +121,19 @@ nav ul li a{
    transform: translateX(-50%);
    background-size: 100% 100%;
 }
+.batch{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background: #00FF88;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px #00FF88;
+    font-size: 18px;
+}
+
+
 .heroContent{
     display: flex;
     flex-direction: column;

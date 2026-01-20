@@ -85,6 +85,9 @@
     .circlebox img{
        width: 90px;
     }
+    .batch{
+        right: 10px;
+    }
 }
 @media screen and (max-width: 480px){
     .footterContent{

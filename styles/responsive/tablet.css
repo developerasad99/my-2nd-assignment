@@ -22,4 +22,7 @@
     .feturedContainer{
         flex-wrap: wrap;
     }
+    .batch{
+        right: 25px;
+    }
 }
