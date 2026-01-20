@@ -120,7 +120,9 @@ nav ul li:hover {
    left: 50%;
    transform: translateX(-50%);
    background-size: 100% 100%;
+   
 }
+
 .batch{
     position: absolute;
     top: 20px;
@@ -153,7 +155,22 @@ nav ul li:hover {
     font-size: 60px;
     color: white;
     margin-bottom: 20px;
+    animation: textRotate 2s infinite;
+    animation-delay: 2s;
 }
+/* animation  */
+@keyframes textRotate  {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50%{
+         transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
 #secondaryBtn{
     background: transparent;
     border: 1px solid #00FF88;
