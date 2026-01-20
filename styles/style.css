@@ -338,6 +338,9 @@ nav ul li:hover {
 .socialIcon ul li a img{
     width: 20px;
 }
+.socialIcon ul li a:hover{
+    background-color: #535050;
+}
 /* end testimonial section  */
 
 /* start footer section  */
@@ -378,5 +381,8 @@ footer{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.footterContent ul li a:hover{
+    color: #00FF88;
 }
 /* end footer section  */
